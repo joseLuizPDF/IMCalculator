@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-size: 24px;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #result {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .imc-table {
+    margin-top: 40px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .imc-table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+  }
+  
+  .imc-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .imc-table td.green {
+    background-color: #C8E6C9;
+  }
+  
+  .imc-table td.yellow {
+    background-color: #FFF9C4;
+  }
+  
+  .imc-table td.orange {
+    background-color: #FFCCBC;
+  }
+  
+  .imc-table td.red {
+    background-color: #FFCDD2;
+  }
